@@ -1,0 +1,146 @@
+/*.font-family: 'Kumbh Sans', sans-serif;.
+.font-family: 'Space Grotesk', sans-serif;*/
+
+header {
+  padding: 0;
+  margin: 0;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  margin: 50px 100px;
+  width: auto;
+  align-items: center;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.nav-right {
+  width: 50%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.create-line {
+  width: auto;
+  border-top: 1px solid rgba(0, 0, 0, 0.185);
+  margin: -10px 100px;
+}
+
+.nav-left-logo {
+  height: 20px;
+  width: 138px;
+  align-items: center;
+}
+
+.nav-left-ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  font-family: "Kumbh Sans", sans-serif;
+  padding-left: 65px;
+}
+
+.nav-left-li {
+  padding-right: 50px;
+  cursor: pointer;
+}
+
+.nav-left-li:hover {
+  border-bottom: 4px solid hsl(26, 100%, 55%);
+}
+
+.nav-buscet {
+  color: black;
+  cursor: pointer;
+  padding-right: 40px;
+}
+
+.nav-avatar {
+  max-width: 60px;
+  border: 2px solid;
+  border-radius: 50%;
+  border-color: rgb(255, 255, 255);
+}
+
+.nav-avatar:hover {
+  border: 2px solid;
+  border-radius: 50%;
+  border-color: hsl(26, 100%, 55%);
+  cursor: pointer;
+}
+
+.window {
+  display: flex;
+  flex-direction: row;
+  margin: 100px 100px;
+}
+
+.window-left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: 60px;
+}
+
+.window-left-mane {
+  display: flex;
+  max-width: 100%;
+  max-height: 50%;
+}
+
+.window-left-mane-img {
+  display: flex;
+  max-width: 100%;
+  border-radius: 15px;
+}
+
+.window-left-also-img {
+  max-width: 12%;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-right: 20px;
+  border: 2px solid;
+  border-color: white;
+}
+
+.window-left-also-img:hover {
+  cursor: pointer;
+  border: 2px solid;
+  border-color: hsl(26, 100%, 55%);
+  background: hsl(25, 100%, 94%);
+  opacity: 0.5;
+}
+
+.window-right {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-top: 50px;
+}
+
+.window-right-text-title {
+  text-transform: uppercase;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 15px;
+  letter-spacing: 1px;
+  color: hsl(26, 100%, 55%);
+}
+
+h1 {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 40px;
+}
+
+.window-right-text-info {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.459);
+  line-height: 1.5;
+}
